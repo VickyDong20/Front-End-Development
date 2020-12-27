@@ -1,0 +1,62 @@
+h1{
+    text-align: left;
+    color: pink;
+    font-weight:400;
+font-family: fantasy;
+
+}
+*{
+    background-color:#a5a58d ;
+}
+label{
+    color:pink;
+    font-family: fantasy;
+}
+h2{
+    color: #b07d62;
+    font-family:monospace;
+    font-weight: 400;
+    font-size: 20px;
+}
+button{
+    font-size: 15px;
+    background-color: #457b9d;
+    font-family:fantasy
+}
+#signup{
+    background-color: darkgrey;
+    color: lightyellow;
+}
+
+span {
+    color:#457b9d
+}
+.tag{
+    background-color:#e29578
+}
+.li{
+    color:#457b9d;
+   font-family: fantasy;
+   
+}
+#ll{
+    color:#606c38;
+}
+
+input[type="text"]{
+    color:pink;
+}
+button:hover{
+    background-color:pink
+}
+span a{
+    text-decoration: none;
+    
+}
+span a:hover{
+    text-decoration:underline lightpink;
+}
+
+button:active{
+    background-color:green
+}
