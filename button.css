@@ -1,0 +1,26 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:50vh;
+    background-color:black
+
+ 
+}
+button{
+    background:none;
+    color:coral;
+    border:2px solid;
+    border-radius: 5px;
+    padding:0.5em 1em;
+    font-size:1em;
+    transition:all 0.2s
+}
+
+button:hover{
+    border-color:cornsilk;
+    color:darkkhaki;
+    box-shadow:0 0.5em 0.5em -0.4em darkkhaki;
+    transform:translateY(-0.25);
+}
