@@ -1,0 +1,75 @@
+body{
+    background-color:bisque;
+    display:flex;
+    justify-content:center;
+align-items:center;
+min-height:100vh;
+
+}
+
+.panel{
+    border-radius:20px;
+    background-color:#e9edc9;
+    padding:20px 30px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    color:#6d6875
+}
+
+
+.price-plan{
+    border-bottom:#b5838d solid 2px ;
+    
+}
+.price-plan:last-child{
+    border-bottom:2px solid #b56576;
+}
+
+.flowerimg{
+    border-radius: 20px;
+    width:40%;
+    height:40%;
+    margin-top:10px;
+    max-width: 100%;
+}
+
+.flowerfeature-item{
+    color:#b5838d;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 5px 0;
+    border-top: 1px solid #ccd5ae;
+    
+}
+
+@media(min-width:600px){
+    .panel{
+        flex-direction: row;
+    }
+    .price-plan{
+        border-bottom:none;
+        border-right:#b5838d solid 2px;
+    padding:10px 10px;
+    }
+    .price-plan:last-child{
+        border-bottom:none
+    }
+
+}
+button{
+    border: 1px solid #b5838d solidf;
+  border-radius: 20px;
+  color: #b5838d solid;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 25px 0;
+ 
+}
