@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game-Counter</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Game-Counter</h1>
+    </header>
+    <section id="events">
+      <h2>Events in Action</h2>
+      <button @click="win">Win</button>
+      <button @click="lose">Lose</button>
+      <p>Result:{{counter}}</p>
+    </section>
+  </body>
+</html>
